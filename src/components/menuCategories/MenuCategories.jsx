@@ -1,6 +1,5 @@
-import Link from "next/link";
-import React from "react";
 import styles from "./menuCategories.module.css";
+import Link from "next/link";
 
 const MenuCategories = () => {
   return (

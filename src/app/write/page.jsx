@@ -3,7 +3,7 @@ import styles from "./writePage.module.css"
 
 const WritePage = () => {
   return (
-    <div>WritePage</div>
+    <div className={styles.container}>WritePage</div>
   )
 }
 
