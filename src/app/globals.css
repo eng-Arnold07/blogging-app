@@ -39,7 +39,7 @@ a{
 .container{
     min-height: 100vh;
     background-color: var(--bg);
-    color: var(--textColor);
+    color: var(--textColor);  
 }
 
 .wrapper {
@@ -47,7 +47,7 @@ a{
     margin-left: auto;
     margin-right: auto;
     padding-left: 80px;
-    padding-right: 80px;
+    padding-right: 80px;  
 }
 
 @media screen and (max-width: 1536px) {
@@ -78,4 +78,11 @@ a{
       max-width: 475px;
     }
   }
+
+  .ql-container{
+    font-size: 28px !important;
+  }
   
+  .quill > .ql-container > .ql-editor.ql-blank::before{
+    color: #b3b3b1;
+  }
