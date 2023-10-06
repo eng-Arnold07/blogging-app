@@ -5,7 +5,7 @@ import styles from "./loginPage.module.css";
 import { useRouter } from "next/navigation";
 
 const LoginPage = () => {
-  const { data: session, status } = useSession();
+  const { status } = useSession();
 
   const router = useRouter();
 
